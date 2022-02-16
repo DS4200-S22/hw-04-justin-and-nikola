@@ -9,11 +9,14 @@ function button1Clicked() {
 }
 
 
-function button2Hover() {
+function button2HoverIn() {
 
-	var s = document.getElementById("circle2")
-	s.setAttribute("stroke", "black")
+	document.getElementById('circle2').style.stroke = 'black'
 
+}
+
+function button2HoverOut() {
+	document.getElementById('circle2').style.stroke = 'lightblue'
 }
 
 function button3Clicked() {

@@ -12,13 +12,14 @@
     <h1> Event Handling </h1>
 <div class = "flex">
     <svg width="120" height="120" viewBox = "0 0 100 100" overflow = "visible" onclick="button1Clicked()" >
-        <circle id="circle1" fill="red" cx="50" cy="50" r="50" stroke-width="3" />
+        <circle class="noborder" id="circle1" fill="red" cx="50" cy="50" r="50" stroke-width="3" />
         <text id="counter" x="45%" y="50"> </text>
     </svg>
 
-    <svg width="120" height="120" viewBox = "0 0 100 100" overflow = "visible">
-        <circle id="circle2" cx="50" cy="50" r="50"/>
+    <svg width="120" height="120" viewBox = "0 0 100 100" overflow = "visible" onmouseover="button2HoverIn()" onmouseout="button2HoverOut()">
+        <circle id="circle2" cx="50" cy="50" r="50" stroke-width="3"/>
     </svg>
+
     <svg  width="120" height="120" viewBox = "0 0 100 100" overflow = "visible">
         <circle id="circle3" cx="50" cy="50" r="50" stroke-width="3" />
     </svg>
