@@ -1,0 +1,35 @@
+html {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.circles {
+  width: "50";
+  height: "50";
+  overflow: visible;
+  viewbox: "0 0 100 100";
+}
+
+#circle1 {
+  fill: darkred;
+  stroke: black;
+  stroke-width: "3";
+}
+
+#circle2 {
+  fill: lightblue;
+}
+
+#circle3 {
+  fill: darkseagreen;
+  stroke: black;
+  opacity: "1";
+}
