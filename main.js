@@ -1,4 +1,4 @@
-var clicks = 0
+let clicks = 0
 function button1Clicked() {
 
     // Counter
@@ -21,5 +21,13 @@ function button2HoverOut() {
 
 function button3Clicked() {
 
+    if ( document.getElementById('circle3').style.opacity == 1) {
+        document.getElementById('circle3').style.opacity = 0
+    }
+
+    else {
+        document.getElementById('circle3').style.opacity = 1
+    }
+   
 
 }
