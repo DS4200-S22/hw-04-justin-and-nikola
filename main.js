@@ -21,12 +21,12 @@ function button2HoverOut() {
 
 function button3Clicked() {
 
-    if ( document.getElementById('circle3').style.opacity == 1) {
-        document.getElementById('circle3').style.opacity = 0
+    if ( document.getElementById('circle3').style.opacity == "0") {
+        document.getElementById('circle3').style.opacity = "1"
     }
 
     else {
-        document.getElementById('circle3').style.opacity = 1
+        document.getElementById('circle3').style.opacity = "0"
     }
    
 
